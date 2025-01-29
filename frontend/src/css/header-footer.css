@@ -1,0 +1,125 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+/* Navbar Logo */
+.imgn {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.imgn:hover {
+  transform: scale(1.1);
+}
+
+/* Navigation Links */
+.listt {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+.listt li {
+  position: relative;
+}
+
+.listt a {
+  color: #333;
+  text-decoration: none;
+  
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.listt a:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  transform: translateY(-5px);
+}
+
+/* Button Container */
+.btv {
+  display: flex;
+  gap: 15px;
+}
+
+/* Buttons */
+.btnnn {
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnnn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btnnn {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+
+
+/* Navbar Hover Effect */
+.navbar:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .list {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btv {
+    flex-direction: column;
+  }
+
+  .imgn {
+    width: 130px;
+  }
+}

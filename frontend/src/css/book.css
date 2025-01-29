@@ -1,0 +1,101 @@
+
+.bo {
+  font-family: Arial, sans-serif;
+}
+
+.booking-page {
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-ti {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgb(246, 53, 53);
+}
+
+
+.romms-li {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.romm-card {
+  display: flex;
+  width: 90%;
+  height: 200px;
+  max-width: 1000px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.romm-image-con {
+  flex: 1;
+}
+
+.romm-image {
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  
+}
+
+.romm-info {
+  flex: 2;
+  margin-left: 50px;
+  padding: 15px;
+}
+
+.romm-info h3 {
+  margin: 0 0 10px;
+  margin-bottom: 30px;
+}
+
+.romm-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.romm-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px;
+}
+
+.romm-actions button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  
+}
+
+.detailbtn {
+  background-color: #000;
+  color: #fff;
+}
+
+.detailbtn:hover {
+  background-color: #555;
+}
+
+.booknw {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.booknw:hover {
+  background-color: #0056b3;
+}

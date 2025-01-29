@@ -1,0 +1,130 @@
+
+
+.page {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+  }
+  
+  .left-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+  
+  .left-side img {
+    width: 100%;
+    height: 100vh;
+    border-radius: 8px;
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 20px;
+    background-color: #aed6f1;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+  }
+
+  .right-sidee {
+    flex: 1;
+    padding: 20px;
+    background-color: #d7bde2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    
+  }
+  
+  .right-logo h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .right-logo p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .form-part form {
+    margin: 20px;
+  }
+  
+  form h4, form h3 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  form input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+  }
+  
+  form input:focus {
+    border-color: #4CAF50;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  button.btn {
+    width: 20%;
+    padding: 14px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button.btn:hover {
+    background-color: #45a049;
+  }
+  
+  .right-sidee div {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .right-sidee div a {
+    color: #cb4335;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .right-sidee div a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+  .right-side div {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .right-side div a {
+    color: #cb4335;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .right-side div a:hover {
+    text-decoration: underline;
+  }
+  
